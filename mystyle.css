@@ -1,0 +1,38 @@
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+.scroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.dropbtn {
+   
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+}
+body  {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+h1 {
+    font-family: Georgia, serif;
+    font-size: 46px;  
+}
+#Preventioncards,.card-title{
+    font-size: 20px;
+}
+#country{
+    padding: 10px;
+    background-color: whitesmoke;
+    border-color: #325288;
+    border-radius: 50px;
+    color: #325288;
+}
+
+/* For Mobile Screen Size */
+@media only screen and (max-width: 600px)  {
+    .card-title{
+        font-size: 15px;
+    }
+}
