@@ -35,4 +35,7 @@ h1 {
     .card-title{
         font-size: 15px;
     }
+    .heading1,.heading2{
+        white-space: nowrap;
+    }
 }
